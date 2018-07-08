@@ -4,7 +4,7 @@ public class main {
         Queue SmallQ = new Queue(5);
 
         //Заполняем очередь алфовитом
-        //26 стоит заменить на более динамический элемент
+        //26 стоит заменить на динамический элемент
         for (int i = 0; i < 26; i++) {
             BigQ.put((char)('A' + i));
         }
@@ -23,5 +23,6 @@ public class main {
         for (int i = 0; i < 6; i++) {
             System.out.print(SmallQ.get());
         }
+
     }
 }
